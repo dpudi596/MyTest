@@ -19,7 +19,7 @@ workflows:
     jobs:
       - blink1
       - blink2:
-          requires:
-	    - blink1
+         requires:
+	   - blink1
 
 

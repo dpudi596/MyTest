@@ -20,6 +20,6 @@ workflows:
       - blink1
       - blink2:
          requires:
-	   - blink1
+           - blink1
 
 

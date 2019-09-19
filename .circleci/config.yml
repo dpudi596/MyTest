@@ -1,8 +1,23 @@
 version: 2
 jobs:
-  build: 
+  blink1: 
     docker: 
       - image: circleci/node:4.8.2
     steps:
       - checkout
       - run: echo "hello swathi"
+  blink2:
+    docker:
+      - image: circleci/node:4.8.2
+    steps:
+      - checkout
+      - run: echo "hello swathi you are blinks best employee"
+
+workflows:
+  version: 2
+  blink-workflow-1:
+    jobs:
+      - blink1
+      - blink2
+
+

@@ -5,13 +5,13 @@ jobs:
       - image: circleci/node:4.8.2
     steps:
       - checkout
-      - run: echo "hello swathi"
+      - run: echo "hello akhil"
   blink2:
     docker:
       - image: circleci/node:4.8.2
     steps:
       - checkout
-      - run: echo " hello "
+      - run: echo " hello mourya"
 
 workflows:
   version: 2

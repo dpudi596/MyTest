@@ -11,7 +11,7 @@ jobs:
       - image: circleci/node:4.8.2
     steps:
       - checkout
-      - run: echo "hello swathi you are blinks best employee"
+      - run: echo " hello "
 
 workflows:
   version: 2
